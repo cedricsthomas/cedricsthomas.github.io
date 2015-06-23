@@ -1,0 +1,76 @@
+#logo{
+	width:150px;
+	display: block;
+	float: left;
+}
+#about{
+	text-align: center;
+	width: 80%;
+	padding-left: 10%;
+	padding-right: 10%;
+	Clear: both;
+}
+#blog{
+	width: 80%;
+	padding-left: 10%;
+	padding-right: 10%;
+	text-align: center;
+	vertical-align: center;
+	background-color: gray;
+	clear: both;
+}
+#brunch{
+	float: left;
+	width: 46%;
+	float: 2%;
+	text-align: center;
+	outline-style: solid;
+	outline-color: black;
+	height: 400px;
+	margin-bottom: 50px;
+}
+#photobooth{
+	float: right;
+	width: 46%;
+	float: 2%;
+	text-align: center;
+	outline-style: solid;
+	outline-color: black;
+	height: 400px;
+}
+#nav{
+	display: block;
+	float: right;
+	background-color: yellow;
+	clear: both;
+	font-size: 1.5em;
+}
+a{
+	display: block;
+	float: left;
+	padding: 20px;
+	background-color: blue;
+}
+#footer{
+	background-color: black;
+	color: white;
+	height: 10.0em;
+	text-align: right;
+	vertical-align: text-bottom;
+	clear: both;
+	font-size: 1em;
+}
+.clearfix{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+#frenchtoastpic{
+	max-width: 200px;
+}
+#photoboothpic{
+	max-width: 200px;
+}
