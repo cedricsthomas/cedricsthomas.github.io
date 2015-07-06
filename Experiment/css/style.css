@@ -39,7 +39,7 @@ a:hover{
 #about{
 	width: 1000px;
 	height: 600px;
-	background-image: ulr(images/bucks.jpg);
+	background-image: url(images/bucks.jpg);
 	color: white;
 	vertical-align: center;
 	margin: auto;
