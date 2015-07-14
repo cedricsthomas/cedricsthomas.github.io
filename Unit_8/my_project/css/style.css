@@ -1,0 +1,105 @@
+nav{
+	background-color: rgb(0,0,0);
+	display: block;
+	font-size: 1.3em;
+	overflow: hidden;
+	text-align: center;
+	margin: auto;
+	float: right;
+}
+nav a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	float: right;
+	padding: 20px;
+	vertical-align: middle;
+}
+h1{
+	color: white;
+	display: inline-block;
+}
+a:hover{
+	background-color: white;
+	color: black;
+}
+a.blocklink:hover{
+	color: black;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background-color: black;
+	vertical-align: middle;
+}
+footer{
+	background-color: rgb(0,0,0);
+	width: 100%;
+	color: white;
+	overflow: hidden;
+}
+#articles{
+	width: 100%;
+	height: auto;
+	background-color: black;
+	margin: auto;
+	clear: both;
+	overflow: hidden;
+}
+
+.column1{
+	display: block;
+	float: left;
+	margin: 1% 0 1% 1%;
+	clear: all;
+}
+.imgs{
+	width: 140px;
+	height: 140px;
+}
+.blocklink{
+	display: table-cell;
+	vertical-align: middle;
+	width: 140px;
+	height: 140px;
+	font-size: 1.4em;
+	text-decoration: none;
+	background-color: rgb(0,0,0);
+	font-color: white;
+	outline-style: solid;
+	outline-color: white;
+}
+a.blocklink{
+	text-align: center;
+	vertical-align: middle;
+	font-size: 1.4em;
+	color: white;
+}
+.title{
+	position: absolute;
+	background-color: white;
+	color: black;
+	padding: 1em;
+	top: 20%;
+}
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+	}
+
+@media screen only and (max-width: 700px){
+nav, nav a{
+	font-size: 1em;
+	float: none;
+	width: auto;
+}
+.column1{
+	float: none;
+	width: auto;
+}
+}
+
