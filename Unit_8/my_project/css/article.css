@@ -35,7 +35,7 @@ nav a{
 	padding: 20px;
 	vertical-align: middle;
 }
-.clearfix:after { 
+.clearfix:{ 
 	content: "."; 
 	visibility: hidden; 
 	display: block; 
@@ -86,13 +86,21 @@ h3,h4{
 	text-align: right;
 }
 
-@media screen only and (max-width: 420px){
-img{
-	max-width: 140px;
-	max-width: 140px;
-}
-nav{
+@media only screen and (max-width: 400px){
+nav, nav a, footer, li{
+	font-size: 1.2em;
 	float: none;
+	width: auto;
+	vertical-align: center;
+	text-align: center;
 }
+#logo{
+	float: none;
+	height: 30px;
+	vertical-align: center;
+	text-align: center;
+	padding-left: 20%;
+	padding-right: 20%;
+	margin: auto;
 }
 

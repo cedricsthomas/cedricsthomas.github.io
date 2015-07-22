@@ -39,6 +39,14 @@ footer{
 	color: white;
 	overflow: hidden;
 }
+
+#logo{
+	float: left;
+	vertical-align: center;
+	display: block;
+	text-align: center;
+	height: 40px;
+}
 #articles{
 	width: 100%;
 	height: auto;
@@ -55,8 +63,8 @@ footer{
 	clear: all;
 }
 .imgs{
-	width: 140px;
-	height: 140px;
+	width: 100%;
+	vertical-align: center;
 }
 .blocklink{
 	display: table-cell;
@@ -69,12 +77,14 @@ footer{
 	font-color: white;
 	outline-style: solid;
 	outline-color: white;
+	text-align: center;
 }
 a.blocklink{
 	text-align: center;
 	vertical-align: middle;
 	font-size: 1.4em;
 	color: white;
+	text-align: center;
 }
 .title{
 	position: absolute;
@@ -91,15 +101,30 @@ a.blocklink{
 	clear: both;
 	}
 
-@media screen only and (max-width: 700px){
+@media only screen and (max-width: 400px){
 nav, nav a{
-	font-size: 1em;
+	font-size: 1.2em;
 	float: none;
 	width: auto;
+}
+#logo{
+	float: none;
+	height: 30px;
+	vertical-align: center;
+	text-align: center;
+	padding-left: 20%;
+	padding-right: 20%;
+	margin: auto;
 }
 .column1{
 	float: none;
-	width: auto;
+	width: 50%;
+	vertical-align: center;
+	text-align: center;
+	padding-left: 20%;
+	padding-right: 20%;
+	margin: auto;
 }
 }
+
 
